@@ -1,0 +1,19 @@
+{
+  "name": "fer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^9.0.8",
+    "gulp": "^3.8.11",
+    "gulp-bower-assets": "0.0.2",
+    "gulp-images": "0.0.3",
+    "gulp-jade": "^1.0.0",
+    "gulp-less": "^3.0.3"
+  }
+}

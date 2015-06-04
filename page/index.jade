@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+  head
+    title Troll
+    link(rel="stylesheet", href="/styles.css")
+    link(rel="stylesheet", href="/app.css")
+    script(type='text/javascript', src="/scripts.js")
+    script(type='text/javascript', src="/snap.js")
+    
+  body
+    .containern
+      .row
+        .col.m8.s12
+          #troll
+        .col.m4.s12
+          .card-panel.teal: span.white-text.
+            ¡Pon tus comentarios Troll sobre los proyectos! Ingresa un comentario corto para que la cara troll se pueda ir completando. También se estarán tuiteando en la cuenta StationTroll. Todo será completamente anónimo. Desahoga tus ideas #[br]
+            #[small Idea Original: Fernando Riviello, Jaime Sánchez y Karen Reynoso. Un sitio hecho por Víctor Rojas.]
+          form#formulario
+            .input-field
+              textarea.materialize-textarea(name="texto")
+              label.active Tu comentario
+            button.btn(type="submit") Enviar comentario
+          ul#lista
+    div#image
+    script(src="https://cdn.firebase.com/js/client/2.2.4/firebase.js")
+    script(type='text/javascript', src="/app.js")

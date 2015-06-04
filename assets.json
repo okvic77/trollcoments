@@ -1,0 +1,20 @@
+{
+  "main": {
+    "scripts.js@concat": [
+      "jquery/dist/jquery.min.js",
+      
+      "materialize/dist/js/materialize.min.js",
+      "Snap.js/snap.min.js",
+      "underscore/underscore-min.js"
+    ],
+    "styles.css@concat": [
+      "animate.css/animate.min.css",
+      "materialize/dist/css/materialize.min.css"
+
+    ],
+    "fonts@copy": [
+      "materialize/dist/font/{material-design-icons,roboto}/*",
+      "font-awesome/fonts/*"
+    ]
+  }
+}

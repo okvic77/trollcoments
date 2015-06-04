@@ -1,0 +1,24 @@
+{
+  "name": "fer",
+  "version": "0.0.0",
+  "authors": [
+    "Víctor Rojas <viropu@icloud.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.4",
+    "underscore": "~1.8.3",
+    "animate.css": "~3.2.6",
+    "font-awesome": "~4.3.0",
+    "Snap.js": "jakiestfu/Snap.js#~1.9.3",
+    "materialize": "~0.96.1"
+  }
+}
